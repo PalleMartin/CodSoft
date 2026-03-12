@@ -1,1 +1,186 @@
+# Tic-Tac-Toe AI
+
+## Project Overview
+
+This project implements an **AI-powered Tic-Tac-Toe game** where a human player competes against an intelligent computer opponent. The AI uses the **Minimax algorithm**, a well-known decision-making algorithm in game theory, to determine the best possible move.
+
+The goal of the AI is to analyze all possible game states and select the optimal move, making it **unbeatable when implemented correctly**.
+
+This project helps in understanding **Artificial Intelligence concepts such as game theory, search algorithms, and decision-making strategies**.
+
+---
+
+## Objectives
+
+* Understand the concept of **game-playing AI**
+* Implement the **Minimax algorithm**
+* Learn how recursive search algorithms work
+* Build a human vs AI game using Python
+* Understand decision-making in adversarial environments
+
+---
+
+## Features
+
+* Human vs Computer gameplay
+* AI opponent using **Minimax algorithm**
+* Interactive command-line interface
+* Automatic win/draw detection
+* AI selects the best possible move
+* Unbeatable AI logic
+
+---
+
+## Technologies Used
+
+* **Programming Language:** Python
+* **Concepts Used:**
+
+  * Artificial Intelligence
+  * Game Theory
+  * Minimax Algorithm
+  * Recursion
+  * Search Algorithms
+  * Decision Trees
+
+---
+
+## Project Structure
+
+```
+tic_tac_toe_ai/
+│
+├── tic_tac_toe_ai.py   # Main program containing game logic and AI
+└── README.md           # Project documentation
+```
+
+---
+
+## How the Game Works
+
+1. The Tic-Tac-Toe board consists of **9 positions** arranged in a 3×3 grid.
+2. The **human player uses 'X'** and the **AI uses 'O'**.
+3. The player selects a position from **1 to 9** to place their mark.
+4. After each player move, the AI calculates the best possible move using the **Minimax algorithm**.
+5. The game continues until:
+
+   * A player wins
+   * The game ends in a draw
+
+---
+
+## Board Layout
+
+```
+1 | 2 | 3
+--+---+--
+4 | 5 | 6
+--+---+--
+7 | 8 | 9
+```
+
+Players select a number corresponding to the position on the board.
+
+---
+
+## Installation and Setup
+
+### Step 1: Install Python
+
+Make sure Python is installed on your system.
+
+Check Python installation:
+
+```
+python --version
+```
+
+### Step 2: Download or Clone the Project
+
+Download the project folder or clone the repository.
+
+### Step 3: Navigate to the Project Folder
+
+```
+cd tic_tac_toe_ai
+```
+
+### Step 4: Run the Program
+
+```
+python tic_tac_toe_ai.py
+```
+
+---
+
+## Example Gameplay
+
+```
+Tic Tac Toe AI
+You are X | AI is O
+
+  |   |
+--+---+--
+  |   |
+--+---+--
+  |   |
+
+Enter position (1-9): 5
+```
+
+The AI will automatically calculate its move and update the board.
+
+---
+
+## Minimax Algorithm Explanation
+
+The **Minimax algorithm** is used to simulate all possible game outcomes and choose the move that maximizes the AI’s chance of winning while minimizing the player's chance.
+
+Possible scores assigned by the AI:
+
+| Game Result | Score |
+| ----------- | ----- |
+| AI Wins     | +1    |
+| Human Wins  | -1    |
+| Draw        | 0     |
+
+The AI recursively explores every possible move and selects the move with the **best possible score**.
+
+---
+
+## Limitations
+
+* The game currently runs only in the **command-line interface**
+* No graphical interface
+* Designed specifically for **Tic-Tac-Toe**
+
+---
+
+## Future Improvements
+
+* Add **Graphical User Interface (GUI)** using Tkinter or Pygame
+* Implement **Alpha-Beta Pruning** to optimize Minimax performance
+* Develop a **web-based Tic-Tac-Toe game**
+* Add multiplayer mode
+* Improve UI and user experience
+
+---
+
+## Learning Outcomes
+
+Through this project, we learn:
+
+* Fundamentals of **Artificial Intelligence**
+* Game strategy implementation
+* Recursive algorithms
+* Decision-making in competitive environments
+* Python programming for AI applications
+
+---
+
+## Author
+
+Palle Martin
+
+Internship Training Project
 
